@@ -3,7 +3,7 @@ import csv
 import random
 from pathlib import Path
 
-import gym
+import gymnasium as gym
 import numpy as np
 import torch
 

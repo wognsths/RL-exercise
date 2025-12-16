@@ -3,7 +3,8 @@ import torch
 import torch.nn.functional as F
 from torch.optim import Adam
 
-from utils import EMA, Args
+from utils import EMA
+from config import Args
 from models import GaussianPolicy, QNetwork, ValueNetwork
 from replay_memory import ReplayMemory
 
